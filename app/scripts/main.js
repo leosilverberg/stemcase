@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 
 function showCase(){
-    console.log("showcase");
+    console.log('showcase');
   
 
 }

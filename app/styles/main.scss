@@ -128,7 +128,7 @@ section h1{
   font-family: $font;
   // text-transform: uppercase;
   background-color:$white;
-  font-size:3.2em;
+  font-size:3.6em;
   letter-spacing:2px;
   
   
@@ -195,6 +195,19 @@ section h1{
   line-height: 1.5em;
   font-family: $font;
   font-weight: 400;
+}
+
+.card h3{
+  display:inline-block;
+}
+
+figcaption{
+ text-align: center;
+ color:$red;
+  font-family: $font;
+  font-weight:bold;
+  text-transform: uppercase;
+  padding:0 1em 2em 1em;
 }
 .full-w-image-cont img{
   margin:0 auto;
@@ -301,4 +314,16 @@ blockquote{
   width:1000px;
   height:1000px;
   overflow:hidden;
+}
+
+.card-header{
+  background-color:$red;
+
+}
+.card-header p{
+  font-family: $font;
+  font-weight:100;
+  font-size:0.9em;
+  color:$white;
+  padding:1em;
 }
