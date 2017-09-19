@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $(document).on('scroll', onScroll);
     // Add smooth scrolling to all links
     $('.linker').on('click', function(event) {
@@ -46,4 +47,18 @@ function showCase(){
     console.log('showcase');
   
 
+}
+
+function showFabTab(){
+    $('#fab-tab-button').addClass('active');
+    $('#electronic-tab-button').removeClass('active');
+    $('#electronic-tab').hide();
+    $('#fab-tab').show();
+}
+
+function showElectronicTab(){
+    $('#fab-tab-button').removeClass('active');
+    $('#electronic-tab-button').addClass('active');
+    $('#fab-tab').hide();
+    $('#electronic-tab').show();
 }
