@@ -372,3 +372,46 @@ blockquote{
 .white-text{
   color:$white;
 }
+.project-gallery{
+  overflow-x:scroll;
+  white-space:nowrap;
+  overflow-x:scroll;
+}
+.project-box{
+  background-color:$peach;
+  width:245px;
+  height:500px;
+  display:inline-block;
+  // margin-left:4px;
+}
+
+.project-box h2{
+  background-color:$red;
+  color:$white;
+  
+  padding-top:1em;
+  padding-bottom:1em;
+  padding-left:1em;
+  letter-spacing:1px;
+}
+
+#project-pitop{
+  background-image:url("../images/projects/pitop.png");
+}
+
+#project-prusa{
+  background-image:url("../images/projects/prusa.png");
+}
+
+#project-filament{
+  background-image:url("../images/projects/filament.png");
+}
+
+#project-exii{
+  background-image:url("../images/projects/exii.png");
+}
+
+#project-mearm{
+  background-image:url("../images/projects/mearm.png");
+}
+
