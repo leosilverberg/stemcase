@@ -120,13 +120,61 @@ $(document).ready(function(){
             $( '#sub-s2f3' ).hide();
         }
       );
+
+       ///story 3
+    $( '#frame-s3f1' ).hover(
+        function() {
+          $( '#sub-s3f1' ).show();
+        }, function() {
+            $( '#sub-s3f1' ).hide();
+        }
+      );
+      $( '#sub-s3f1' ).hover(
+        function() {
+          $( '#sub-s3f1' ).show();
+        }, function() {
+            $( '#sub-s3f1' ).hide();
+        }
+      );
+
+
+      $( '#frame-s3f2' ).hover(
+        function() {
+          $( '#sub-s3f2' ).show();
+        }, function() {
+            $( '#sub-s3f2' ).hide();
+        }
+      );
+      $( '#sub-s3f2' ).hover(
+        function() {
+          $( '#sub-s3f2' ).show();
+        }, function() {
+            $( '#sub-s3f2' ).hide();
+        }
+      );
+
+
+      $( '#frame-s3f3' ).hover(
+        function() {
+          $( '#sub-s3f3' ).show();
+        }, function() {
+            $( '#sub-s3f3' ).hide();
+        }
+      );
+      $( '#sub-s3f3' ).hover(
+        function() {
+          $( '#sub-s3f3' ).show();
+        }, function() {
+            $( '#sub-s3f3' ).hide();
+        }
+      );
   });
 
   function showStory2(){
       console.log('showing 2');
-    $('#story1').hide('slow');
-    $('#story3').hide('slow');
-    $('#story2').show('slow');
+    $('#story1').hide();
+    $('#story3').hide();
+    $('#story2').show();
     $('#story-button-1').removeClass('button-active');
     $('#story-button-3').removeClass('button-active');
     $('#story-button-2').addClass('button-active');
@@ -134,9 +182,9 @@ $(document).ready(function(){
 
   function showStory1(){
     console.log('showing 1');
-  $('#story2').hide('slow');
-  $('#story3').hide('slow');
-  $('#story1').show('slow');
+  $('#story2').hide();
+  $('#story3').hide();
+  $('#story1').show();
   $('#story-button-2').removeClass('button-active');
   $('#story-button-3').removeClass('button-active');
   $('#story-button-1').addClass('button-active');
@@ -144,9 +192,9 @@ $(document).ready(function(){
 
 function showStory3(){
     console.log('showing 3');
-  $('#story2').hide('slow');
-  $('#story1').hide('slow');
-  $('#story3').show('slow');
+  $('#story2').hide();
+  $('#story1').hide();
+  $('#story3').show();
   $('#story-button-1').removeClass('button-active');
   $('#story-button-2').removeClass('button-active');
   $('#story-button-3').addClass('button-active');
