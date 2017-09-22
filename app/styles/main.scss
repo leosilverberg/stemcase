@@ -124,7 +124,6 @@ section h1{
   display: inline;
   color:$peach;
   font-family: $font;
-  // text-transform: uppercase;
   background-color:$white;
   font-size:3.6em;
   letter-spacing:2px;
@@ -387,7 +386,6 @@ blockquote{
 #top-specs-cont{
   z-index:1000;
   width:1024px;
-  // background-color:red;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -399,9 +397,7 @@ blockquote{
 }
 
 #osh-badge{
-  
   text-align:right;
-  // background-color:$white;
 }
 #osh-badge p{
 
@@ -411,7 +407,6 @@ blockquote{
   color:$peach;
   font-family: $font;
   text-transform: uppercase;
-
   font-size:1.1em;
   letter-spacing:2px;
   padding:1px;
@@ -419,8 +414,6 @@ blockquote{
   font-weight: bold;
 
 }
-
-
 
 .scaling {
   position:absolute;
@@ -500,9 +493,4 @@ blockquote{
 
 #project-mearm{
   background-image:url("../images/projects/mearm.png");
-}
-
-
-#what-is-sub{
-  
 }
