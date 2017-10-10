@@ -309,6 +309,8 @@ margin-bottom:-310px;
 
 
 
+
+
 .divided-card p{
   font-family: $font;
   border-left: 1px solid rgba(0, 0, 0, 0.16);
@@ -494,3 +496,32 @@ blockquote{
 #project-mearm{
   background-image:url("../images/projects/mearm.png");
 }
+
+
+//medium laptops and beneath
+@media (max-width: 1280px) and (min-width:1024px) { 
+  .pull-up-more{
+    margin-bottom:-200px;
+    }
+ }
+
+ @media (max-width: 1024px) and (min-width:568px) { 
+  .pull-up-more{
+    margin-bottom:0px;
+    }
+
+    .menu-links a{
+      font-size:0.8em;
+    }
+    #site-container{
+     margin-top:45px;
+    }
+    
+    #top-case-img{
+      margin-top: -25px;
+    }
+
+    section h2{
+      font-size:1.3em;
+    }
+ }
